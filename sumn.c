@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 void natural() {
-    int n, sum = 0;
+    int n, i, sum = 0;
 
-    printf("Enter a positive integer: ");
+    printf("Enter a natural number: ");
     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++) {
+    for (i = 1; i <= n; i++) {
         sum += i;
     }
 
-    printf("Sum of the first %d natural numbers is %d\n", n, sum);
+    printf("The sum of first %d natural numbers is: %d\n", n, sum);
+
     //return 0;
 }
